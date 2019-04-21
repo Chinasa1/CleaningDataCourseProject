@@ -25,6 +25,6 @@ The "run_analysis.R"
 3)	Delete the downloaded zip file.
 4)	Merge the data and create a single data file
 5) 	Create a tidy data by following the questions of the project.
-6)	Create the output file "HumanActivityObservation.csv"
+6)	Create the output file "HumanActivityObservation.txt"
 
 

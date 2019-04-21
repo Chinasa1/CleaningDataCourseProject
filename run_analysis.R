@@ -87,6 +87,6 @@ humanActivityMeanStdData$activity.id <- NULL
 #
 tidyData<-humanActivityMeanStdData%>%group_by(subject,activity.name)%>%summarise_all(mean)
 #write the data to file
-write.csv(tidyData, "HumanActivityObservation.csv")
+write.table(tidyData, "HumanActivityObservation.txt", row.name=FALSE)
 rm(activities, featuresColumns, humanActivityMeanStdData)
 
